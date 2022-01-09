@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    display: flex;
+    height: 63.5vh;
+   
+    
+    
+
+}
+.header img{
+    width: 15vw;
+    height: 15vw;
+}
+ .box{
+    background-color: #BBE5ED;
+    width: 90vw;
+    text-align: left;
+
+    padding-top: 80px ;
+    padding-left: 40px;
+    color: #011936;
+    height: 63.5vh;
+    
+}
+.box h1{
+font-size: 4rem;
+}
+
+
+.navbar{
+    
+    background-color: rgb(27, 20, 10);
+    display: flex;
+    flex-direction: column;  
+    
+    
+
+}
+
+.navbar a{
+    text-decoration: none;
+    background-color:#3d7ea4;
+    padding: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    text-align: center;
+    width: 15vw;
+  
+    
+    color: #0d1821;
+    font-size: larger;
+}
+.navbar a:hover{
+    background-color:#BBE5ED;
+    color: black;
+    font-weight: 900;
+}
+.content{
+    background-color:#3d7ea4;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Education h5,p{
+font-size: large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.Skills h5,ul{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Skills ul li{
+    list-style-type: none;
+    margin: 8px;
+}
+
+
+ .heading{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+.Profile a{
+    color: white;
+}
